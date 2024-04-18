@@ -1,0 +1,77 @@
+*{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+.main{
+    background-color: rgb(42, 138, 71);
+    height: 550px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.main button{
+    position: relative;
+    height: 70px;
+    width: 70px;
+    top: 5%;
+    left: 4%;
+    margin: 15px 10px;
+    padding-inline: 0px 0px;
+    font-size: 25px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+.main button:hover{
+    background-color: rgb(96, 164, 241);
+}
+
+#textField{
+    position: relative;
+    top: 5%;
+    left: 5%;
+    background-color: white;
+    text-align: right;
+    height: 50px;
+    width: 400px;
+    margin: 15px 10px;
+    padding: 10px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bolder;
+
+}
+
+#equal{
+    position: absolute;
+    top: 60%;
+    left: 79%;
+    height: 173px;
+}
+
+.main p{
+    position: absolute;
+    height: 30px;
+    width: 150px;
+    margin: 0px 0px;
+    top: 1%;
+    left: 30%;
+    padding-inline: 10px 10px;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: black;
+}
